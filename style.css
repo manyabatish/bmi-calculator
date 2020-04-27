@@ -1,0 +1,128 @@
+.page
+{
+    margin : 5% 8%;
+}
+
+/* firstpart */
+
+.first-part
+{
+    background-color: #ed5e3e;
+    color: white;
+}
+
+h1 
+{
+ padding: 7% 10%;
+text-align: center;
+font-size: 3.2rem;
+font-family: 'Lobster', cursive;
+
+}
+.firstimagebmi 
+{
+    width: 110%;
+    margin: 1rem auto 6rem 6rem;  
+}
+
+.yourBMI 
+{
+    font-size: 4rem;
+    margin: 8rem 5rem 5rem 12rem;
+    text-align: center;
+}
+.fa-weight
+{
+    color: lightgray;
+}
+
+
+ /* second part*/
+
+
+.second-part
+{
+    padding:  12%  10% 0 10%;
+}
+.bmichart{
+   width: 100%;
+    margin: 5rem 2rem 0 5rem;
+    text-align: left;
+}
+.card-header
+{
+    text-align: center;
+    font-size: 210%;
+    background-color: #ed5e3e;
+    font-family: 'Pacifico', cursive;
+    color: cornsilk;
+}
+.fa-heartbeat
+{
+ color: #fab6b6;
+}
+.card-body 
+{
+    text-align: center;
+    padding: 3rem 3rem;
+    line-height: 2;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+}
+.card-footer
+{
+    text-align: left;
+    padding-left: 3.5rem;
+}
+.cal-button 
+{
+ margin: 7% 2% 0 0;
+}
+#output 
+{
+    font-weight: bolder;
+}
+.result 
+{
+    font-family: 'Viga', sans-serif;
+    font-size: 140%;
+}
+/* end-part */
+
+.end-part
+{
+    background-color: #ed5e3e;
+    color: white;
+    margin: 7rem 0;
+}
+.end-img
+{
+    width: 100%;
+    margin: 4rem auto 4rem auto;  
+}
+.fa-smile-beam
+{
+    color: #f0d74a;
+}
+.ty{
+    font-size: 4rem;
+    margin: 13rem 2rem 6rem 7rem;
+    text-align: center;
+}
+@media (max-width : 1024px)
+{
+  .firstimagebmi
+  {
+      width: 80%;
+      margin: 0 0 2rem 4rem;
+  }
+   .yourBMI
+   {
+       margin: 4rem 5rem 3rem 1rem;
+   }
+   .bmichart
+   {
+       margin: 5rem 5rem 0 1rem;
+   }
+}
